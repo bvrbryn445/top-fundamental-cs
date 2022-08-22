@@ -17,7 +17,6 @@ export default function mergeSort(arr) {
 				finalProduct.push(secondHalf.shift());
 			}
 		}
-		// console.log(finalProduct);
 		return finalProduct;
 	}
 }
