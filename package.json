@@ -6,6 +6,7 @@
 	"directories": {
 		"test": "tests"
 	},
+	"type": "module",
 	"dependencies": {
 		"@babel/preset-env": "^7.18.10",
 		"jest": "^28.1.3"

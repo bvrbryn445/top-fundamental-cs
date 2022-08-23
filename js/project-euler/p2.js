@@ -6,5 +6,4 @@ function evenOnlyFibonacciSum(limit, a = 0, b = 1, sum = 0) {
 	return c >= limit ? sum : evenOnlyFibonacciSum(limit, a, b, sum);
 }
 
-
 console.log(evenOnlyFibonacciSum(4000000));

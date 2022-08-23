@@ -1,4 +1,4 @@
-import mergeSort from '../js/merge-sort.js';
+import mergeSort from '../js/recursions/merge-sort.js';
 
 test('sort a short amount of elements array', () => {
 	const unsortedArr = [33, 11, 22, 1];
